@@ -1,0 +1,53 @@
+PODS:
+  - DJI-SDK-iOS (4.14)
+  - DJI-UXSDK-iOS (4.14)
+  - DJI-UXSDK-iOS-Beta (0.4.1):
+    - DJI-UXSDK-iOS-Beta-Accessory (= 0.4.1)
+    - DJI-UXSDK-iOS-Beta-Core (= 0.4.1)
+    - DJI-UXSDK-iOS-Beta-Flight (= 0.4.1)
+    - DJI-UXSDK-iOS-Beta-Map (= 0.4.1)
+  - DJI-UXSDK-iOS-Beta-Accessory (0.4.1):
+    - DJI-UXSDK-iOS-Beta-Core (~> 0.4.1)
+  - DJI-UXSDK-iOS-Beta-Core (0.4.1):
+    - DJI-SDK-iOS (~> 4.14)
+    - DJIWidget (~> 1.6.4)
+  - DJI-UXSDK-iOS-Beta-Flight (0.4.1):
+    - DJI-UXSDK-iOS-Beta-Core (~> 0.4.1)
+  - DJI-UXSDK-iOS-Beta-Map (0.4.1):
+    - DJI-UXSDK-iOS-Beta-Core (~> 0.4.1)
+  - DJIWidget (1.6.4)
+  - iOS-Color-Picker (1.2)
+
+DEPENDENCIES:
+  - DJI-SDK-iOS (~> 4.14)
+  - DJI-UXSDK-iOS (~> 4.14)
+  - DJI-UXSDK-iOS-Beta (~> 0.4.1)
+  - DJIWidget (~> 1.6.4)
+  - iOS-Color-Picker (~> 1.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DJI-SDK-iOS
+    - DJI-UXSDK-iOS
+    - DJI-UXSDK-iOS-Beta
+    - DJI-UXSDK-iOS-Beta-Accessory
+    - DJI-UXSDK-iOS-Beta-Core
+    - DJI-UXSDK-iOS-Beta-Flight
+    - DJI-UXSDK-iOS-Beta-Map
+    - DJIWidget
+    - iOS-Color-Picker
+
+SPEC CHECKSUMS:
+  DJI-SDK-iOS: db08fad65cfb9fecddb34b38851af105bd4133db
+  DJI-UXSDK-iOS: 13bcf4ed89db6ea19fd125b1392613153f0c96b9
+  DJI-UXSDK-iOS-Beta: ff005af0d85e651cf88727d379515b673335658a
+  DJI-UXSDK-iOS-Beta-Accessory: 786f7ffd781ade53bb43506b36507f78f5802561
+  DJI-UXSDK-iOS-Beta-Core: 5f59a29692ac3dc6d80265495b66859493023fe2
+  DJI-UXSDK-iOS-Beta-Flight: f185e47dd7c0034fa58907304740a771709b4342
+  DJI-UXSDK-iOS-Beta-Map: 82a816f02456409594b9ab5e6722b36df0b4354a
+  DJIWidget: ce26deb9fb78494d2189065f431b13a663181b5f
+  iOS-Color-Picker: 4284a4d744a7cafe9d22d4b66eefc45342b80f1d
+
+PODFILE CHECKSUM: 602ae6f1265cb170502f324a393f5d8d662487cd
+
+COCOAPODS: 1.10.1
